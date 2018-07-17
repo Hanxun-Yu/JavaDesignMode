@@ -11,6 +11,8 @@ public class Test {
      * 一旦Filter执行时返回false，则不可以执行Target,流程终端
      * 在过滤器IFilter中的方法返回true false 来判断是否拦截
      *
+     * 与责任链模式相似，
+     * 责任链的每层也是类似Filter，从顶层把问题向下抛，一旦有一层处理了，后续则不再处理
      *
      *
      * @param args
