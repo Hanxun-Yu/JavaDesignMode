@@ -1,1 +1,1 @@
-include ':app', ':libFactoryMethod', ':libSingleton', ':libBuilder', ':libPrototype'
+include ':app', ':libFactoryMethod', ':libSingleton', ':libBuilder', ':libPrototype', ':libBridge', ':libProxy', ':libIterator', ':libInterceptingFilter'
